@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <title>Rigatoni Recipes</title>
 
- <link rel=" stylesheet" href="../css/header.css">
+  <link rel=" stylesheet" href="../css/header.css">
   <link rel=" stylesheet" href="../css/r_entry.css">
   <link rel=" stylesheet" href="../css/footer.css">
   <link rel=" stylesheet" href="../css/background.css">
@@ -37,32 +37,19 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Grünkern Burger</h2>
-    <img src="../images/burger.jpg" alt="Burger"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Pattis vorbereiten wie in Anleitung. Man kann am besten 3 draus machen nicht 4.</div>
-      <div class="ingredient">Grünkern Burger</div>
-
-      <div class="link">
-     <a href="https://www.dm.de/bauckhof-fertigmischung-gruenkern-burger-vegan-p4015637004945.html"><i>Link</i></a>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
      </div>
-  
-    <hr>
-    <div class="bulletpoint">2. Dinkel Burger Brötchen leicht antoasten, nicht zu viel.</div>
-       <div class="ingredient">Dinkelburger Brötchen</div>
-       <div class="ingredient">Zwiebel</div>
-       <div class="ingredient">Käse</div>
-      <div class="ingredient">Paprika</div>
-      <div class="ingredient">Tomate</div>
-        <div class="ingredient">Avocado</div>
-      
-      
-  </div>
-</div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -71,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="burger.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

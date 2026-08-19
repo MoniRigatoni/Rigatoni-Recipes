@@ -33,12 +33,13 @@
   <a href="..\notes.html"><img src="../icons/lexicon.svg"></img></a>
   <a href="..\ideas.html"><img src="../icons/ideas.svg"></img></a>
 </div>
+
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Shakshuka</h2>
-    <img src="../images/shakshuka.jpg" alt="Shakshuka"/>
-     <div class="subtitle"> 
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
+    <div class="subtitle"> 
       Insta-Rezept von Katha, wir fanden es so lecker, dass es einen separaten Eintrag bekommen hat, da wir es sicher 
       öfter machen werden. 
     </div>
@@ -46,42 +47,13 @@
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Wie immer, zuerst das Gemüse schnibbeln.</div>
-      <div class="ingredient">1 kleine Zwiebel</div>
-      <div class="ingredient">1 Paprika</div>
-    <hr>
-    <div class="bulletpoint">2. Dann etwas Olivenöl in die Pfanne tun und zuerst die Zwiebeln dann die Paprika anschwitzen. Beides schonmal würzen. 
-      Wenn da, können auch Kirchererbsen dazu. 
-    </div>
-      <div class="ingredient">Kichererbsen</div>
-      <div class="spice">Chili Pulver</div>
-      <div class="spice">Paprika Edelsüß</div>
-      <div class="spice">Kreuzkümmel (bisschen)</div>
-      
-    <hr>
-    <div class="bulletpoint">3. Das Tomatenmark (1EL oder was mehr) jetzt als <b>erstes</b> rein, vor den gehackten Tomaten. So kann das noch etwas mit anrösten. 
-      Dann alles für ca. 10 Minuten auf kleiner Stufe (ohne Deckel) braten lassen damit es etwas eindickt. 
-    </div>
-      <div class="ingredient">Tomatenmark</div>
-      <div class="ingredient">1 Dose gehackte Tomaten</div>
-      <div class="spice">Salz & Pfeffer</div>
-     
-    <hr>
-    <div class="bulletpoint">4. Kleine Mulden formen in der Tomatenmaße, da kommen die Eier rein. Die Eier klein bisschen mit Salz nachwürzen.
-      Feta drüber streuen.  
-    </div>
-          <div class="ingredient">4 Eier</div>
-          <div class="ingredient">1/2 Feta</div>
-          <div class="spice">Salz</div>
-    <hr>
-    
-    <div class="bulletpoint">5.   Dann so ca. <b>10 Minuten</b> (mit Deckel) ziehen lassen. Eigentlich sollten die Eier dann noch ein wenig weich sein, aber wir mögen sie lieber was härter. 
-      Daher packen wir noch paar Minuten obendrauf und pieksen rein um zu schauen ob sie passen.
-    </div>
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -90,4 +62,6 @@
 --> 
 </div>
 </html>
+<script src="shakshuka.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

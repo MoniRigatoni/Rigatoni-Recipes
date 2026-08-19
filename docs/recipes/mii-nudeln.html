@@ -3,11 +3,11 @@
 
 <head>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="5e9556b2-cbf2-4e6e-b8e5-6661227b10a5"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
   <title>Rigatoni Recipes</title>
 
- <link rel=" stylesheet" href="../css/header.css">
+  <link rel=" stylesheet" href="../css/header.css">
   <link rel=" stylesheet" href="../css/r_entry.css">
   <link rel=" stylesheet" href="../css/footer.css">
   <link rel=" stylesheet" href="../css/background.css">
@@ -37,34 +37,19 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Mii Nudeln mit Curry</h2>
-    <img src="../images/mii_nudeln.jpg" height="200" alt="Mii Nudeln" style="border-radius: 7px"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Wasser kochen für Nudeln.</div>
-      <div class="ingredient">Mii Nudeln</div>
-    <hr>
-    <div class="bulletpoint">2. Gemüse schnibbeln und im Wok anbraten. </div>
-       <div class="ingredient">1 Paprika</div>
-       <div class="ingredient">1 Zucchini</div>
-       <div class="ingredient">1 Zwiebel</div>
-       <div class="ingredient">Brokkoli (Tiefkühl)</div>
-    <hr>
-    <div class="bulletpoint">3. Mit Kokosmilch ablöschen und würzen.</div>
-      <div class="ingredient">Tomatenmark</div>
-      <div class="ingredient">Kokosmilch</div>
-      <div class="spice">Curry Pulver</div>
-      <div class="spice">Curry Paste</div>
-      <div class="spice">Salz & Pfeffer</div>
-    
-    <hr>
-    <div class="bulletpoint">4. Mii Nudeln nur für paar Minuten in heißes Wasser. </div>
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -73,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="mii-nudeln.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

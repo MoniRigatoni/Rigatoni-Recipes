@@ -4,7 +4,7 @@
 <head>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="5e9556b2-cbf2-4e6e-b8e5-6661227b10a5"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>Rigatoni Recipes</title>
 
   <link rel=" stylesheet" href="../css/header.css">
@@ -37,32 +37,19 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Ulis Salatsoße</h2>
-    <img src="../images/wip.jpg" alt="Salatsoße"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Ein bisschen Zwiebel klitzeklein (ankegerecht) schnibbeln.</div>
-      <div class="ingredient">1/4 Zwiebel</div>
-    <hr>
-    <div class="bulletpoint">2. In ein Glas tun und dann mischen mit:
-    Nur einen fingerbreit Salz, 3-4 Spritzern Maggi, 3 großen Schuggern Tafelessing drauf gefolgt von nem klinen Schugger Hellem Balsamico. 
-    </div>
-       <div class="spice">Salz</div>
-       <div class="spice">Maggi</div>
-       <div class="spice">Tafelessig</div>
-       <div class="spice">Weißer Balsamico</div>
-       <div class="spice">Kräutergewürz</div>
-    
-    <hr>
-    <div class="bulletpoint">3. Einen spritzer Wasser und Schmand dazu geben.</div>
-      <div class="ingredient">1.5TL Schmand</div>
-      
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -71,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="salatsosse-uli.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

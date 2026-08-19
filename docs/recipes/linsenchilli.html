@@ -4,7 +4,7 @@
 <head>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="5e9556b2-cbf2-4e6e-b8e5-6661227b10a5"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>Rigatoni Recipes</title>
 
   <link rel=" stylesheet" href="../css/header.css">
@@ -34,54 +34,22 @@
   <a href="..\ideas.html"><img src="../icons/ideas.svg"></img></a>
 </div>
 
- 
+ <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
-  <!-- RECIPE PAGE LEFT-->
   <div class="recipe-container-left">
-    <h2>Linsenchilli mit Cous Cous</h2>
-    <img src="../images/linsenchilli.jpg" height="200" alt="Linsenchilli" style="border-radius: 7px"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Linsen gut waschen und dann mit Zwiebeln und etwas Öl kurz anrösten. Dann in einen Topf rüberschubbeln und eine Dose gehackte Tomaten dazu tun. Das kann schon mal auf niedriger Stufe (ca. 6) köcheln.</div>
-      <div class="ingredient">1 Zwiebel</div>
-      <div class="ingredient">150g Trockene Rote Linsen</div>
-
- <hr>
-    <div class="bulletpoint">2. Als nächstes die Karotten in kleine Stückchen schneiden. Die auch in etwas Öl anbraten und würzen.  </div>
-    <div class="ingredient">2-3 Karotten</div>
-    <div class="spice">Salz&Pfeffer</div>
-    <div class="spice">Kurkuma</div>
-    
-    
-    <hr>
-    <div class="bulletpoint">3. Danach restliches Gemüse schnibbeln z.B. Paprika und Zucchini.</div>
-       <div class="ingredient">1 Paprika</div>
-       <div class="ingredient">1 Zucchini</div>
-       
-    <hr>
-      <div class="bulletpoint">4. Cous Cous zubereiten. Einfach mit heißem Wasser übergießen bis er verdeckt ist und bisschen Brühe dazu.</div>
-      <div class="ingredient">100g Cous Cous</div>
-      <div class="spice">Brühe</div>
-    
-    <hr>
-      <div class="bulletpoint">5. Alle Zutaten zuammen in einen Topf und eventuell etwas passierte Tomaten dazu wenn zu trocken. Mais drauf. Insgesamt sollen die Linsen mind. 10 Minuten köcheln. Aber alles nicht zu lange
-        köcheln, damit das Gemüse nicht zu weich wird. </div>
-      <div class="ingredient">Passierte Tomaten</div>
-      <div class="ingredient">Tomatenmark</div>
-      <div class="ingredient">Mais</div>
-      <div class="spice">Paprika Pulver</div>
-      <div class="spice">Chili Pulver</div>
-
-    <hr>
-      <div class="bulletpoint">5. Avocado dazu. Bisschen Zitrone wenn da.</div>
-      <div class="ingredient">Avocado</div>
-      <div class="ingredient">Zitrone</div>
-      
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -90,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="linsenchilli.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

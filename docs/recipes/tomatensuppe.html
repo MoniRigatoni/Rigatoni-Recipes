@@ -4,7 +4,7 @@
 <head>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="5e9556b2-cbf2-4e6e-b8e5-6661227b10a5"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>Rigatoni Recipes</title>
 
   <link rel=" stylesheet" href="../css/header.css">
@@ -37,34 +37,19 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Tomatensuppe</h2>
-    <img src="../images/wip.jpg" alt="Tomatensuppe" />
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Suppengrün recht grob schnibbeln und kochen und die Brühe behalten als Suppe. Im Original macht man es aus einer 
-    einer echten Hühnerbrühe, aber hier ist eine vegetarische Version. Auch wenn es nur nach Wasser mit Tomatenmark klingt iss es echt lecker!</div>
-      <div class="spice">Hühnerbrühe</div>
-      <div class="ingredient">Suppengrün</div>
-    <hr>
-    <div class="bulletpoint">2. Viel Tomatenmark dazu und ein bisschen Mehlspitz für die Konsistenz. </div>
-       <div class="ingredient">1TL Mehl</div>
-       <div class="ingredient">Tomatenmark</div>
-       
-    <hr>
-    <div class="bulletpoint">3. Suppennudeln dann einfach direkt in der Suppe kochen.</div>
-      <div class="ingredient">Suppennudeln</div>
-    
-    <hr>
-    <div class="bulletpoint">4. Wenn es nicht mehr kocht, saure Sahne und Maggi dazu geben und nachwürzen.</div>
-          <div class="ingredient">Saure Sahne</div>
-          <div class="spice">Maggi</div>
-            <div class="spice">Salz&Pfeffer</div>
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -73,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="tomatensuppe.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

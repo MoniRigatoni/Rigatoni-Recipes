@@ -88,3 +88,30 @@ a{
     max-width: 400px;
 }
 
+ .portionsDisplay{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem; 
+ 
+ }
+
+ .selectState{
+    background-color: #CC707C;
+ }
+
+ .portionButton{
+    font-size: 15px;
+    margin: 0.1rem;
+    border-radius: 3px;
+    border-color: #807974;
+ }
+
+ #tipp{
+    padding-top: 0.5rem;
+    font-size: smaller;
+ }
+ 
+ .recipe-link{
+    padding-top: 0.5rem; 
+ }
+

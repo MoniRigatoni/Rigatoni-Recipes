@@ -33,41 +33,23 @@
   <a href="..\notes.html"><img src="../icons/lexicon.svg"></img></a>
   <a href="..\ideas.html"><img src="../icons/ideas.svg"></img></a>
 </div>
+
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Chili Sin Carne</h2>
-    <img src="../images/chili-sin-carne.jpg" alt="Chili Sin Carne"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Wasser kochen und Sojageschnetzelts übergiesen und 15 min quellen lassen. Bisschen Brühe dazu.</div>
-      <div class="spice">Brühe</div>
-      <div class="ingredient">75g Sojageschnetzeltes</div>
-    <hr>
-    <div class="bulletpoint">2. Gemüse schnibbeln und anbraten und in den Topf tun.</div>
-       <div class="ingredient">1 Paprika</div>
-       <div class="ingredient">1 Zucchini</div>
-       <div class="ingredient">1 Zwiebel</div>
-    <hr>
-    <div class="bulletpoint">3. Sojageschnetzeltes zusammen mit Zwiebeln 
-        anbraten und mit Tomatenmark ablöschen. In den Topf zum Gemüse.</div>
-      <div class="ingredient">Tomatenmark</div>
-      <div class="ingredient">Dose Bohnen</div>
-      <div class="ingredient">Kleine Dose Mais</div>
-      <div class="spice">Chili Pulver</div>
-      <div class="spice">Salz & Pfeffer</div>
-    
-    <hr>
-    <div class="bulletpoint">4. In den Topf 
-        passierte Tomaten und Gemüsebrühe dazu geben.Aber nur warm machen, nicht kochen,
-       da das Gemüse sonst zu weich wird.</div>
-          <div class="ingredient">Passierte Tomaten</div>
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -76,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="chili-sin-carne.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

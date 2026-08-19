@@ -37,46 +37,19 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Gulasch</h2>
-    <img src="../images/gulasch.jpg" height="200" alt="Gulasch" style="border-radius: 7px"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-
-    
-    <div class="bulletpoint">1. Zuerst die Zwiebeln schnibbeln. Es sollen vom Volumen genauso viele Zwiebeln da sein wie Gulasch.</div>
-       <div class="ingredient">1kg Gulasch</div>
-       <div class="ingredient">1 Volumen Zwiebeln</div>
-
-       <hr>
-    <div class="bulletpoint">2. Gulasch in der Pfanne knacking anbraten auf hoher Stufe. Es ist wichtig, das er nicht kocht, sondern brät. Daher am 
-      besten Butterschmalz benutzen, weil das richtig heiß werden kann. Es reicht wenn die Ränder gold-braun sind. Drinnen soll er nicht durch werden.
-      Dann schonmal bisschen würzen. </div>
-      <div class="spice">Paprika Pulver</div>
-      <div class="spice">Salz & Pfeffer</div>
-      <div class="ingredient">Butterschmalz</div>
-    
-    <hr>
-    <div class="bulletpoint">3. Gulasch mit Rotwein ablöschen. Aber in kleinen Mengen, nur so dass der Boden bedeckt ist. Nicht alles auf einmal!
-      In einen seperaten Topf packen.
-    </div>
-       <div class="ingredient">Rotwein</div>
-       
-    <hr>
-    <div class="bulletpoint">4.Den Topf mit Brühe auffüllen, aber nur soviel, dass das Fleisch grade so bedeckt ist. Dann die Zwiebeln gold-braun anbraten in der Pfanne und in den Topf tun. </div>
-      <div class="ingredient">Brühe</div>
-      
-    
-    <hr>
-    <div class="bulletpoint">5. Auf kleiner Stufe (4 oder so) köcheln lassen für mindestens 2 Stunden. Dazu dann Klößchen und Rotkraut machen.</div>
-      <div class="ingredient">Klößchen (halb und halb)</div>
-       <div class="ingredient">Rotkraut</div>
-     
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -85,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="gulasch.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

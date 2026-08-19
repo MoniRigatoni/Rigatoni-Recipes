@@ -33,43 +33,23 @@
   <a href="..\notes.html"><img src="../icons/lexicon.svg"></img></a>
   <a href="..\ideas.html"><img src="../icons/ideas.svg"></img></a>
 </div>
+
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Kartoffeln aus dem Backofen</h2>
-    <img src="../images/kartoffeln.jpg" alt="Chili Sin Carne"/>
-    <div class="subtitle"> 
-      <p>Zusammen mit Quark und Salat. Und manchmal ein klitzekleines bisschen Ketchup dazu.</p>
-    </div>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Zuerst den Quark machen da der mind. eine halbe Stunde (besser länger) ziehen sollte. Am wichtigesten ist, dass man die Zwiebeln wirklich seehr klein schneidet. 
-      Dann einfach alles zusammenmischen. </div>
-      <div class="ingredient">250 g Magerquark</div>
-      <div class="ingredient">2-3 EL Joghurt</div>
-      <div class="ingredient">Viertelstels Zwiebel</div>
-      <div class="spice">Bisschen Brühe</div>
-      <div class="spice">Salz&Pfeffer</div>
-      <div class="spice">Schnittlauch (gefroren oder frisch)</div>
-      <div class="spice">Hauch Muskatnuss</div>
-    <hr>
-    <div class="bulletpoint">2. Kartoffeln (oder auch Süßkartoffeln) schnibbeln. Wenn's geht - gleichmäßig.
-      Dann in eine Schüssel tun und würzen, ölen und dann (auch wieder gleichmäßig) auf dem Backblech verteilen.
-      Die müssen für mind. 25 Minuten bei 220°C in den Ofen. Wenn Süßkartoffeln dabei sind, die ein klein wenig später
-      rein tun, da sie sonst verkohlen.
-    </div>
-       <div class="ingredient">Kartoffeln</div>
-       <div class="ingredient">Süßkartoffeln</div>
-       <div class="spice">Paprika Edelsüß</div>
-    <hr>
-    <div class="bulletpoint">3. Dazu einen Salat machen. Am besten passt Uli's Salatsoße!  </div>
-  
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -78,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="kartoffeln.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

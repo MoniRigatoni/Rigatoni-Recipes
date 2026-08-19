@@ -18,7 +18,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Geologica:wght,CRSV@100..900,0&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  
 </head>
 
 <div class="wrapper">
@@ -38,37 +37,19 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Kichererbsen Curry</h2>
-    <img src="../images/kichererbsen-curry.jpg" height="200" alt="Kichererbsen Curry" style="border-radius: 7px"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Spinat zuerst auftauen, da das am längsten dauert. Niedrige Stufe im Wok.</div>
-      <div class="ingredient">Blattspinat (Tiefkühl)</div>
-
-    <hr>
-    <div class="bulletpoint">2. Gemüse schnibbeln und kurz im Wok anbraten und würzen. </div>
-       <div class="ingredient">1 Paprika</div>
-       <div class="ingredient">1/2 Zucchini</div>
-       <div class="ingredient">1 Zwiebel</div>
-       <div class="spice">Kurkuma</div>
-       <div class="spice">Curry Pulver</div>
-       <div class="spice">Curry Paste</div>
-       <div class="spice">Salz & Pfeffer</div>
-      
-    <hr>
-    <div class="bulletpoint">3.Dann restliche Zutaten dazu in den Wok und warm machen. </div>
-      <div class="ingredient">1 Dose Kichererbsen</div>
-      <div class="ingredient">Gehackte Tomaten</div>
-    
-    <hr>
-    <div class="bulletpoint">4. Brötchen dazu.</div>
-          <div class="ingredient">Brötchen</div>
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -77,4 +58,6 @@
 --> 
 </div>
 </html>
+<script src="kichererbsencurry.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

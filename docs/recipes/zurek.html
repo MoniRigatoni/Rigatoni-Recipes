@@ -4,7 +4,7 @@
 <head>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="5e9556b2-cbf2-4e6e-b8e5-6661227b10a5"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta charset="UTF-8">
+  <meta charset="UTF-8">
   <title>Rigatoni Recipes</title>
 
   <link rel=" stylesheet" href="../css/header.css">
@@ -37,43 +37,22 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Zurek</h2>
-    <img src="../images/zurek.jpg" height="200" alt="Polnischer Zurek" style="border-radius: 7px"/>
-     <div class="subtitle"> 
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
+    <div class="subtitle"> 
       <b>Monis absolutes Lieblingsessen:</b>  Eigentlich macht man Zurek original anders, aber Monis Mama macht ihn besser als alle! Der hier topt alles!
     </div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Kartoffeln kochen und dann stampfen. Eier hart kochen und schälen.</div>
-      <div class="ingredient">1 Ei pro Zurek</div>
-      <div class="ingredient">Kartoffeln</div>
-    <hr>
-    <div class="bulletpoint">2. Ungefähr 1 Tasse Wasser mit Gemüsebrühe aufkochen (nicht zu viel Brühe nehmen) und die Lorbeerblätter und Wachholderbeeren
-      drinnen köcheln lassen für ca. 5 Minuten. </div>
-       <div class="spice">Wachholderbeeren</div>
-       <div class="spice">Lorbeerblätter</div>
-       <div class="ingredient">Brühe</div>
-    <hr>
-    <div class="bulletpoint">3. Buttermilch gut schütteln und in einen Messbecher tun zum Härten (sonst gibt's Bröckchen) Das heißt, nach und nach
-      ein paar Löffel von der heißen Brühe dazu geben.
-    </div>
-      <div class="ingredient">0.5L Buttermilch</div>
-    
-    <hr>
-    <div class="bulletpoint">4. Dann würzen und Lorbeer und Wachholder rausangeln.</div>
-           <div class="spice">Salz&Pfeffer</div>
-           <div class="spice">Muskatnuss</div>
-           <div class="spice">Maggi</div>
-           <div class="ingredient">Butter</div>
-  
-    <hr>
-    <div class="bulletpoint">5. Stampf uund Ei auf den Teller und mit Zurek übergießen.</div>
-          
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -82,4 +61,6 @@
 --> 
 </div>
 </html>
+<script src="zurek.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

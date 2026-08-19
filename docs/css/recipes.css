@@ -5,7 +5,6 @@
         margin-top: 0.4rem;
     }
 
-
   .recipe-section {
     background-color: #F4EDE6;;
     padding-left: 2rem;
@@ -51,7 +50,6 @@
 
    .card-body{
     display:flex;
-   
    }
 
     @media (max-width: 768px) {
@@ -63,10 +61,8 @@
     }
 
     .recipe-card {
-      
         min-height: 270px;
         font-size: 1rem;
-
     }
   }
 

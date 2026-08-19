@@ -33,49 +33,26 @@
   <a href="..\notes.html"><img src="../icons/lexicon.svg"></img></a>
   <a href="..\ideas.html"><img src="../icons/ideas.svg"></img></a>
 </div>
+
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Udon Nudeln mit Erdnusssoße</h2>
-    <img src="../images/udon.jpg" alt="Udon Nudeln"/>
-     <div class="subtitle"> 
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
+    <div class="subtitle"> 
       Insta-Rezept Empfehlung von Katha, njummmiiii. 
     </div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Zuerst das Gemüse schnibbeln das drüber soll. Kann alles sein was da ist.
-      Kurz in Olivenöl andünsten und etwas würzen. 
-    </div>
-       <div class="ingredient">1 Paprika</div>
-       <div class="ingredient">1 Zucchini</div>
-       <div class="ingredient">1 Karotte</div>
-        <div class="ingredient">1 kleine Zwiebel</div>
-       <div class="spice">Salz & Pfeffer</div>
-       <div class="spice">Kurkuma</div>
-    <hr>
-    <div class="bulletpoint">2. Udon Nudeln (2 Portionen) kochen und währenddessen die Soße zubereiten.</div>
-       <div class="ingredient">2x Udon Nudeln</div>
-
-    <hr>
-    <div class="bulletpoint">3. Zuerst die Zwiebel ein bisschen im Sesamöl anrösten und dann die restlichen 
-      Zutaten dazugeben. Wenn es zu dick flüssig ist, mehr vom Nudelwasser dazu.  
-    </div>
-      <div class="ingredient">Sesamöl</div>
-      <div class="ingredient">2EL Erdnussbutter</div>
-      <div class="ingredient">1EL Sojasoße</div>
-      <div class="ingredient">1TL Honig</div>
-      <div class="spice">Chili Pulver</div>
-      <div class="spice">Salz & Pfeffer</div>
-      
-    
-    <hr>
-    <div class="bulletpoint">4. Dann die Nudeln in die Soße geben, auf einen Teller servieren und das Gemüse obendrauf packen. Unbedingt Sesam dazu!
-  </div>
-  <div class="ingredient">Sesam</div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -84,4 +61,6 @@
 --> 
 </div>
 </html>
+<script src="udon-erdnuss.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>

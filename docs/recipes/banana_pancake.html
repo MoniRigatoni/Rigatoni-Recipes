@@ -37,37 +37,22 @@
  <!-- RECIPE PAGE LEFT-->
 <div class="recipe-container">
   <div class="recipe-container-left">
-    <h2>Banana Pancakes</h2>
-    <img src="../images/banana_pancake.jpg" alt="Pancakes"/>
+    <h2 id="recipeTitle"></h2>
+    <div id="image"></div>
+      <div class="subtitle"> 
+      Rezept von Köti, haben wir mal bei ihr Göteborg gezaubert, war sehr fein.  
+    </div>
   </div>
 
   <!-- RECIPE PAGE RIGHT-->
   <div class="recipe-container-right">
-    <h2>Zubereitung</h2>
-    <div class="bulletpoint">1. Ca. 1-2 gut gereifte Bananas in einer Schüssel matschen.</div>
-      <div class="ingredient">2 Banana</div>
-
-    <hr>
-    <div class="bulletpoint">2. Mehl abwiegen und dazu tun.</div>
-       <div class="ingredient">400g Dinkelmehl</div>
-      
-    <hr>
-    <div class="bulletpoint">3. Restlichen Zutaten dazu geben und alles schön mit dem Handrührgerät verrühren.
-      Danach direkt das Rührgerät sauber machen, wenn der Teig mal trocken ist geht der echt schwer ab. 
-    </div>
-      <div class="ingredient">250mL Hafermilch</div>
-      <div class="ingredient">200mL Sprudel</div>
-      <div class="spice">Prise Salz</div>
-      <div class="spice">Zimt</div>
-      <div class="spice">1 Backpulver</div>
-    
-    <hr>
-    <div class="bulletpoint">4. Öl in Pfanne und ca. 3 Stück pro Pfanne anbraten. Am leckersten mit Frischkäse und Beeren.</div>
-          <div class="ingredient">Frischkäse</div>
-          <div class="ingredient">Blaubeeren (Tiefkühl)</div>
-  
-  </div>
-</div>
+    <h2 >Zubereitung</h2>
+    <div class="portionsDisplay">
+      <div>Portionen</div>
+      <div id="portions"></div>
+     </div>
+     <hr>
+    <div id="recipe"></div>
 
 <!-- Footer
   <div class="footer">
@@ -76,4 +61,6 @@
 --> 
 </div>
 </html>
+<script src="banana_pancake.js" charset="UTF-8"></script>
+<script src="render.js" charset="UTF-8"></script>
 </body>
